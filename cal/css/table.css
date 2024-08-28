@@ -1,0 +1,85 @@
+body {
+    background-color: #36393f;
+}
+h1 {
+    width: 10%;
+    color: white;
+    text-align: center;
+    /*padding-bottom: 20px;
+    border-bottom: 10px solid;
+    border-bottom-color: purple;*/
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+ul {
+    color: white;            
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color:  #2f3136;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
+display: block;
+color: white;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a.active {
+background-color: #42464d;
+color: white;
+}
+
+li a:hover:not(.active) {
+background-color: #42464d;
+color: white;
+}
+.h3 {
+    padding-left: 17%;
+    color: white;
+    background-color: #36393f;
+}
+table {
+    margin-left: 17%;
+    margin-top: 20px;
+         width: 80%;
+      color: white;
+      border: white solid ;
+      }
+    th {
+      text-align: center;
+    }
+    table,td,th {
+      border: 1px solid white;
+    }
+    .ic{
+        color: greenyellow;
+    }
+    .exp{
+        color: red;
+    }
+    .h3 {
+        float: left;
+        padding-left: 17%;
+        color: white;
+        background-color: #36393f;
+        /*border-bottom: 1px black;
+        border-bottom-style: solid;*/
+    }
+    .table {
+        padding-top: 10px;
+        padding-left: 90%;
+    }
+    .p {
+        overflow: auto;
+        border-bottom: 1px black;
+        border-bottom-style: solid;
+    }
+
